@@ -16,7 +16,7 @@ require_once "inc/config.php";
 <body>
 
 <div class="uk-section uk-container">
-    <div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid>
+    <div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" >
         <form class="uk-form-stacked js-register">
             <h2>Register</h2>
             <div class="uk-margin">
@@ -32,6 +32,8 @@ require_once "inc/config.php";
                     <input class="uk-input" id="form-stacked-text" type="password" required="required" placeholder="Your Password">
                 </div>
             </div>
+
+            <div class="margin alert alert-danger js-error" style="display: none"></div>
 
             <div class="uk-margin">
                 <button class="uk-button uk-button-default" type="submit">Register</button>

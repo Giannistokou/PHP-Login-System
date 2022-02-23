@@ -1,6 +1,6 @@
 <?php
-    //allow the config
-    define('_CONFIG_', true);
+    //allow the config define('_CONFIG_', true);
+const _CONFIG_ = true;
     //Require config
     require_once "inc/config.php";
 ?>
